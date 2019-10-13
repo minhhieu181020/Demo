@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="160dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:src="@drawable/logo" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#DDCBCB"
+        android:gravity="center"
+        android:text="Thon tin khoa hoc"
+        android:textSize="16pt"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#C5CF60"
+        android:orientation="vertical">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="ID"
+        android:textColor="#000000"
+        android:textSize="10pt" />
+
+    <EditText
+        android:id="@+id/edtIdCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:editable="false"
+        android:enabled="true" />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="NAme"
+                android:textColor="#000000"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/edtTypeCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:editable="false"
+                android:enabled="true" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Type"
+                android:textColor="#000000"
+                android:textSize="10pt" />
+
+            <EditText
+                android:id="@+id/edtNameCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:editable="false"
+                android:enabled="true" />
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_marginLeft="8dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center_vertical"
+               android:text="Time"
+               android:textColor="#000000"
+               android:textSize="10pt" />
+
+           <EditText
+               android:id="@+id/edtTimeCourse"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="16dp"
+               android:editable="false"
+               android:enabled="true" />
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
